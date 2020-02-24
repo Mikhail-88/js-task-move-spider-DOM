@@ -13,7 +13,6 @@ function init(field) {
     const fieldPosition = field.getBoundingClientRect();
     const fieldX = fieldPosition.left + field.clientLeft;
     const fieldY = fieldPosition.top + field.clientTop;
-
     let x = e.clientX - fieldX - spider.offsetWidth / 2;
     let y = e.clientY - fieldY - spider.offsetHeight / 2;
 
